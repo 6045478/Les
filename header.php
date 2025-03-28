@@ -15,8 +15,8 @@
             transition: background-color 0.3s, color 0.3s;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: white; /* Standaard lichte achtergrond */
-            color: black; /* Standaard zwarte tekst */
+            background-color: white;
+            color: black;
         }
 
         header {
@@ -24,11 +24,11 @@
             align-items: center;
             justify-content: space-between;
             padding: 10px 20px;
-            background: #333; /* Donkere achtergrond voor header */
-            color: white; /* Witte tekst in de header */
+            background: #333;
+            color: white;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 100%; /* Ensure header does not extend beyond viewport */
-            box-sizing: border-box; /* Include padding in width calculation */
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .logo {
@@ -42,12 +42,11 @@
 
         nav a {
             text-decoration: none;
-            color: white; /* Witte tekst in de header */
+            color: white;
             font-weight: bold;
             padding: 8px 12px;
         }
 
-        /* Hamburger menu stijlen */
         .menu-toggle {
             display: none;
             font-size: 24px;
@@ -62,7 +61,6 @@
             padding: 0;
         }
 
-        /* Mobile styling */
         @media (max-width: 768px) {
             nav {
                 display: none;
@@ -71,7 +69,7 @@
                 top: 60px;
                 left: 0;
                 width: 100%;
-                background: #333; /* Donkere achtergrond voor het menu */
+                background: #333;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 padding: 10px 0;
             }
@@ -92,14 +90,14 @@
             }
         }
 
-        /* Donkere modus stijlen */
+    
         .dark-mode {
-            background-color: #121212; /* Donkere achtergrond voor de pagina */
-            color: white; /* Witte tekst in donkere modus */
+            background-color: #121212;
+            color: white;
         }
 
         .dark-mode header {
-            background: #333; /* Donkere achtergrond voor de header in donkere modus */
+            background: #333;
         }
 
         .dark-mode .toggle-btn {
@@ -142,7 +140,6 @@
 </header>
 
 <script>
-    // Dark mode toggle
     const toggleButton = document.getElementById("darkModeToggle");
     const modeIcon = document.getElementById("modeIcon");
     const modeText = document.getElementById("modeText");
@@ -159,7 +156,6 @@
         }
     });
 
-    // Hamburger menu toggle
     const menuToggle = document.getElementById("menuToggle");
     const navMenu = document.getElementById("navMenu");
 
