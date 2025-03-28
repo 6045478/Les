@@ -34,13 +34,13 @@
                     <a href="lunch.php" class="menu-btn">Bekijk lunchkaart</a>
                 </article>
                 <article class="menu-item">
-                    <img src="diner.jpg" alt="Diner gerechten">
+                    <img src="img/diner.jpg" alt="Diner gerechten">
                     <h3>Diner</h3>
                     <p>Ontdek onze uitgebreide dinerkaart vanaf 17:00 uur</p>
                     <a href="diner.php" class="menu-btn">Bekijk dinerkaart</a>
                 </article>
                 <article class="menu-item">
-                    <img src="dranken.jpg" alt="Dranken">
+                    <img src="img/dranken.jpg" alt="Dranken">
                     <h3>Dranken</h3>
                     <p>Uitgebreide wijnkaart en speciale cocktails</p>
                     <a href="dranken.php" class="menu-btn">Bekijk drankenkaart</a>
