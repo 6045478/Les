@@ -1,4 +1,3 @@
-<!-- footer.php -->
 <footer>
     <section class="footer-content">
         <address>
